@@ -5,30 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e7a02f1-f804-482c-8458-fd3b970521b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_09_config/src/main/resources/ebank-server.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_09_config/src/main/resources/ebank.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/src/main/java/com/hb/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_02_base_configuration/springboot_02_base_configuration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_02_base_configuration/springboot_02_base_configuration.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_02_base_configuration/target/classes/com/hb/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_02_base_configuration/target/classes/com/hb/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_03_yaml/springboot_03_yaml.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_03_yaml/springboot_03_yaml.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_03_yaml/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_03_yaml/target/classes/com/hb/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_03_yaml/target/classes/com/hb/MyDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_03_yaml/target/classes/com/hb/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/hb/SSMPApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/hb/SSMPApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/itheima/dao/BookDaoTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/hb/dao/BookDaoTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/itheima/service/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/hb/service/BookServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/itheima/service/BookServiceTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/hb/service/BookServiceTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_01_04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_01_04/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_03_yaml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_03_yaml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_09_config/src/main/java/com/itheima/Springboot09ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_09_config/src/main/java/com/hb/Springboot09ConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_09_config/src/main/java/com/itheima/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_09_config/src/main/java/com/hb/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_09_config/src/test/java/com/itheima/Springboot09ConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_09_config/src/test/java/com/hb/Springboot09ConfigApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_11_log/src/main/java/com/itheima/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_11_log/src/main/java/com/hb/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_11_log/src/main/java/com/itheima/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_11_log/src/main/java/com/hb/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/hb/SSMPApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/hb/SSMPApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_12_hot_deploy/target/classes/com/hb/SSMPApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/target/classes/com/hb/SSMPApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,23 +68,15 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8 (2)",
-    "last_opened_file_path": "D:/ideaworkspace/springboot/springboot_12_hot_deploy",
-    "nodejs_package_manager_path": "npm",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/ideaworkspace/springboot",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "spring.configuration.checksum": "6f1733ea69b964a7253abad9177b94da"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
-    ]
+    "project.structure.side.proportion": "0.28850573",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "395767e17d3a37d7d2a8168ca98b6d78"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -117,6 +98,13 @@
       <recent name="com.hb.service" />
       <recent name="com.hb.domain" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SSMPApplication">
     <configuration name="BookServiceTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -254,6 +242,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring13ConfigurationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_13_configuration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Spring13ConfigurationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Springboot0101Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot_01_01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Springboot0101Application" />
@@ -332,12 +327,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot13ConfigurationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_13_configuration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Springboot13ConfigurationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="JUnit.BookServiceTest.testDelete" />
       <item itemvalue="JUnit.BookServiceTest.testGetById" />
       <item itemvalue="JUnit.BookServiceTest.testGetPage" />
       <item itemvalue="JUnit.BookServiceTest.testUpdate" />
+      <item itemvalue="Spring Boot.Spring13ConfigurationApplication" />
+      <item itemvalue="Spring Boot.Springboot13ConfigurationApplication" />
       <item itemvalue="Spring Boot.Application (2)" />
       <item itemvalue="Spring Boot.Application (3)" />
       <item itemvalue="Spring Boot.SSMPApplication" />
@@ -403,7 +407,14 @@
       <workItem from="1678871824018" duration="643000" />
       <workItem from="1678947068701" duration="1803000" />
       <workItem from="1678963921403" duration="5592000" />
-      <workItem from="1679017146656" duration="6717000" />
+      <workItem from="1679017146656" duration="7320000" />
+      <workItem from="1679118781478" duration="107000" />
+      <workItem from="1679129259301" duration="2712000" />
+      <workItem from="1679201243327" duration="1394000" />
+      <workItem from="1679204109969" duration="43000" />
+      <workItem from="1679217056046" duration="791000" />
+      <workItem from="1679294572301" duration="17000" />
+      <workItem from="1679405148779" duration="94000" />
     </task>
     <servers />
   </component>

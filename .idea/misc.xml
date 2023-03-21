@@ -21,10 +21,12 @@
         <option value="$PROJECT_DIR$/springboot_09_config/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_11_log/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_12_hot_deploy/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_13_configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_13_configuration/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
