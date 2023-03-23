@@ -9,6 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+
     <groupId>com.hb</groupId>
     <artifactId>springboot_13_configuration</artifactId>
     <version>0.0.1-SNAPSHOT</version>
