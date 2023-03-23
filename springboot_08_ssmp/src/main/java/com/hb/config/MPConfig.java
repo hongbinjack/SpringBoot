@@ -13,6 +13,7 @@ import org.springframework.context.annotation.Configuration;
  * 这么个具体的拦截器
  */
 @Configuration//注解该类是一个配置类
+//配置了一个分页的拦截器
 public class MPConfig {
     @Bean
     public MybatisPlusInterceptor mybatisPlusInterceptor(){

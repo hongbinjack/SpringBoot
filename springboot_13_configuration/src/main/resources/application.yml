@@ -1,1 +1,10 @@
+servers:
+  ipAddress: 192.168.114.130
+  port: 899
+  timeout: 8888  # -1表示永不超时
+  serverTimeout: 12
+  dataSize: 10MB # 这里写了单位MB，ServerConfig配置类中可以不用DataSizeUnit注解了
 
+datasource:
+  driverClassName: com.mysql.jdbc.Driver
+  password: "0127"   # 注意yaml文件中对于数字的定义支持进制书写格式，如需使用字符串，请使用引号明确标注

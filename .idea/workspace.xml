@@ -5,19 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e7a02f1-f804-482c-8458-fd3b970521b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot_13_configuration/src/main/java/com/hb/config/ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/hb/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/hb/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/hb/domain/Vendors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/ConfigurationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/PropertiesAndArgsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/WebTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/config/MSGConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_01_04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_01_04/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_03_yaml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_03_yaml/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_09_config/src/main/java/com/itheima/Springboot09ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_09_config/src/main/java/com/hb/Springboot09ConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_09_config/src/main/java/com/itheima/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_09_config/src/main/java/com/hb/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_09_config/src/test/java/com/itheima/Springboot09ConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_09_config/src/test/java/com/hb/Springboot09ConfigApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_11_log/src/main/java/com/itheima/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_11_log/src/main/java/com/hb/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_11_log/src/main/java/com/itheima/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_11_log/src/main/java/com/hb/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/hb/SSMPApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/hb/SSMPApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_12_hot_deploy/target/classes/com/hb/SSMPApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/target/classes/com/hb/SSMPApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/hb/config/MPConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/hb/config/MPConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_09_config/target/classes/com/itheima/Springboot09ConfigApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_09_config/target/classes/com/itheima/controller/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_09_config/target/test-classes/com/itheima/Springboot09ConfigApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_11_log/target/classes/com/itheima/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_11_log/target/classes/com/itheima/controller/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_13_configuration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_13_configuration/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_13_configuration/src/main/java/com/hb/Springboot13ConfigurationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_13_configuration/src/main/java/com/hb/Springboot13ConfigurationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_13_configuration/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_13_configuration/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_13_configuration/src/test/java/com/hb/Springboot13ConfigurationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_13_configuration/src/test/java/com/hb/Springboot13ConfigurationApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,21 +80,21 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/ideaworkspace/springboot",
+    "last_opened_file_path": "D:/ideaworkspace/springboot/springboot_14_test/src/main/java/com/hb",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.28850573",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "395767e17d3a37d7d2a8168ca98b6d78"
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "d4f514e17daa5d102c6c10bca5d9b7a5"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaworkspace\springboot\springboot_14_test\src\main\java\com\hb" />
       <recent name="D:\ideaworkspace\springboot\springboot_09_config\src\main\resources" />
       <recent name="D:\ideaworkspace\springboot\springboot_08_ssmp\src\main\resources\config" />
       <recent name="D:\ideaworkspace\springboot\springboot_08_ssmp\src\main\resources\static" />
       <recent name="D:\ideaworkspace\springboot\springboot_07_druid\src\main\resources" />
-      <recent name="D:\ideaworkspace\springboot\springboot_07_druid\src\main\java\com\hb" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hb" />
@@ -106,66 +115,18 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SSMPApplication">
-    <configuration name="BookServiceTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_08_ssmp" />
+  <component name="RunManager" selected="JUnit.WebTest.testJson">
+    <configuration name="ConfigurationTest.getMSG" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_14_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hb.service.*" />
+          <option name="PATTERN" value="com.hb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hb.service" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.service.BookServiceTest" />
-      <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookServiceTest.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_08_ssmp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hb.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hb.service" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.service.BookServiceTest" />
-      <option name="METHOD_NAME" value="testGetById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookServiceTest.testGetPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_08_ssmp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hb.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hb.service" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.service.BookServiceTest" />
-      <option name="METHOD_NAME" value="testGetPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookServiceTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_08_ssmp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hb.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hb.service" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.service.BookServiceTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="PACKAGE_NAME" value="com.hb" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.ConfigurationTest" />
+      <option name="METHOD_NAME" value="getMSG" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,6 +135,70 @@
     <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest.testBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_14_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hb" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.WebTest" />
+      <option name="METHOD_NAME" value="testBody(org.springframework.test.web.servlet.MockMvc)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest.testJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_14_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hb" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.WebTest" />
+      <option name="METHOD_NAME" value="testJson(org.springframework.test.web.servlet.MockMvc)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest.testStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_14_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hb" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.WebTest" />
+      <option name="METHOD_NAME" value="testStatus(org.springframework.test.web.servlet.MockMvc)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest.testWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_14_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hb" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.WebTest" />
+      <option name="METHOD_NAME" value="testWeb(org.springframework.test.web.servlet.MockMvc)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,15 +224,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot_10_profiles" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_11_log" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -334,12 +360,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot14TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_14_test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Springboot14TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.BookServiceTest.testDelete" />
-      <item itemvalue="JUnit.BookServiceTest.testGetById" />
-      <item itemvalue="JUnit.BookServiceTest.testGetPage" />
-      <item itemvalue="JUnit.BookServiceTest.testUpdate" />
+      <item itemvalue="JUnit.WebTest.testBody" />
+      <item itemvalue="JUnit.WebTest.testJson" />
+      <item itemvalue="JUnit.WebTest.testStatus" />
+      <item itemvalue="JUnit.WebTest.testWeb" />
+      <item itemvalue="JUnit.ConfigurationTest.getMSG" />
+      <item itemvalue="Spring Boot.Springboot14TestApplication" />
+      <item itemvalue="Spring Boot.Application (5)" />
       <item itemvalue="Spring Boot.Spring13ConfigurationApplication" />
       <item itemvalue="Spring Boot.Springboot13ConfigurationApplication" />
       <item itemvalue="Spring Boot.Application (2)" />
@@ -364,11 +400,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application (4)" />
-        <item itemvalue="JUnit.BookServiceTest.testGetById" />
-        <item itemvalue="JUnit.BookServiceTest.testGetPage" />
-        <item itemvalue="JUnit.BookServiceTest.testDelete" />
-        <item itemvalue="JUnit.BookServiceTest.testUpdate" />
+        <item itemvalue="JUnit.WebTest.testJson" />
+        <item itemvalue="JUnit.WebTest.testBody" />
+        <item itemvalue="JUnit.WebTest.testStatus" />
+        <item itemvalue="JUnit.WebTest.testWeb" />
+        <item itemvalue="JUnit.ConfigurationTest.getMSG" />
       </list>
     </recent_temporary>
   </component>
@@ -415,6 +451,10 @@
       <workItem from="1679217056046" duration="791000" />
       <workItem from="1679294572301" duration="17000" />
       <workItem from="1679405148779" duration="94000" />
+      <workItem from="1679406180695" duration="26000" />
+      <workItem from="1679483322114" duration="8537000" />
+      <workItem from="1679557674754" duration="8014000" />
+      <workItem from="1679571205762" duration="5816000" />
     </task>
     <servers />
   </component>

@@ -12,6 +12,7 @@
         <module name="springboot_05_mybatis" />
         <module name="springboot_01_01" />
         <module name="springboot_07_druid" />
+        <module name="springboot_14_test" />
         <module name="springboot_08_ssmp" />
         <module name="springboot_06_mybatis_plus" />
         <module name="springboot_01_04" />
@@ -46,6 +47,7 @@
       <module name="springboot_11_log" options="-parameters" />
       <module name="springboot_12_hot_deploy" options="-parameters" />
       <module name="springboot_13_configuration" options="-parameters" />
+      <module name="springboot_14_test" options="-parameters" />
     </option>
   </component>
 </project>
