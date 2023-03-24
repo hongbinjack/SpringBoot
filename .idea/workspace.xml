@@ -5,28 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e7a02f1-f804-482c-8458-fd3b970521b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot_13_configuration/src/main/java/com/hb/config/ServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/hb/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/hb/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/hb/domain/Vendors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/ConfigurationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/PropertiesAndArgsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/WebTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/config/MSGConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/hb/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/hb/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/hb/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/DaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/testCase/domain/BookCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/hb/config/MPConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/hb/config/MPConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_09_config/target/classes/com/itheima/Springboot09ConfigApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_09_config/target/classes/com/itheima/controller/BookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_09_config/target/test-classes/com/itheima/Springboot09ConfigApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_11_log/target/classes/com/itheima/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_11_log/target/classes/com/itheima/controller/BookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_13_configuration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_13_configuration/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_13_configuration/src/main/java/com/hb/Springboot13ConfigurationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_13_configuration/src/main/java/com/hb/Springboot13ConfigurationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_13_configuration/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_13_configuration/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_13_configuration/src/test/java/com/hb/Springboot13ConfigurationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_13_configuration/src/test/java/com/hb/Springboot13ConfigurationApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_07_druid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_07_druid/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_08_ssmp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_08_ssmp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_14_test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_14_test/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/PropertiesAndArgsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/PropertiesAndArgsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/hb/WebTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,23 +60,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/ideaworkspace/springboot/springboot_14_test/src/main/java/com/hb",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.28850573",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "d4f514e17daa5d102c6c10bca5d9b7a5"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ideaworkspace/springboot/springboot_14_test/src/main/java/com/hb&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28850573&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d4f514e17daa5d102c6c10bca5d9b7a5&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ideaworkspace\springboot\springboot_14_test\src\main\java\com\hb" />
@@ -101,11 +90,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hb.controller" />
-      <recent name="com.hb.service.impl" />
-      <recent name="com.hb.controller.utils" />
-      <recent name="com.hb.service" />
+      <recent name="com.hb" />
+      <recent name="com.hb.testCase.domain" />
       <recent name="com.hb.domain" />
+      <recent name="com.hb.dao" />
+      <recent name="com.hb.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -115,8 +104,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WebTest.testJson">
-    <configuration name="ConfigurationTest.getMSG" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PropertiesAndArgsTest.testProperties">
+    <configuration name="DaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_14_test" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +114,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hb" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.ConfigurationTest" />
-      <option name="METHOD_NAME" value="getMSG" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.DaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_14_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hb" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.DaoTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertiesAndArgsTest.testProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_14_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hb" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.PropertiesAndArgsTest" />
+      <option name="METHOD_NAME" value="testProperties" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,7 +159,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTest.testBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTest.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_14_test" />
       <extension name="coverage">
         <pattern>
@@ -149,7 +169,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hb" />
       <option name="MAIN_CLASS_NAME" value="com.hb.WebTest" />
-      <option name="METHOD_NAME" value="testBody(org.springframework.test.web.servlet.MockMvc)" />
+      <option name="METHOD_NAME" value="testGetById(org.springframework.test.web.servlet.MockMvc)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,38 +186,6 @@
       <option name="PACKAGE_NAME" value="com.hb" />
       <option name="MAIN_CLASS_NAME" value="com.hb.WebTest" />
       <option name="METHOD_NAME" value="testJson(org.springframework.test.web.servlet.MockMvc)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebTest.testStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_14_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hb" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.WebTest" />
-      <option name="METHOD_NAME" value="testStatus(org.springframework.test.web.servlet.MockMvc)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebTest.testWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_14_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hb" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.WebTest" />
-      <option name="METHOD_NAME" value="testWeb(org.springframework.test.web.servlet.MockMvc)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -369,11 +357,11 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.WebTest.testBody" />
+      <item itemvalue="JUnit.DaoTest" />
+      <item itemvalue="JUnit.DaoTest.save" />
+      <item itemvalue="JUnit.PropertiesAndArgsTest.testProperties" />
+      <item itemvalue="JUnit.WebTest.testGetById" />
       <item itemvalue="JUnit.WebTest.testJson" />
-      <item itemvalue="JUnit.WebTest.testStatus" />
-      <item itemvalue="JUnit.WebTest.testWeb" />
-      <item itemvalue="JUnit.ConfigurationTest.getMSG" />
       <item itemvalue="Spring Boot.Springboot14TestApplication" />
       <item itemvalue="Spring Boot.Application (5)" />
       <item itemvalue="Spring Boot.Spring13ConfigurationApplication" />
@@ -400,11 +388,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PropertiesAndArgsTest.testProperties" />
+        <item itemvalue="JUnit.DaoTest" />
+        <item itemvalue="JUnit.DaoTest.save" />
+        <item itemvalue="JUnit.WebTest.testGetById" />
         <item itemvalue="JUnit.WebTest.testJson" />
-        <item itemvalue="JUnit.WebTest.testBody" />
-        <item itemvalue="JUnit.WebTest.testStatus" />
-        <item itemvalue="JUnit.WebTest.testWeb" />
-        <item itemvalue="JUnit.ConfigurationTest.getMSG" />
       </list>
     </recent_temporary>
   </component>
@@ -455,6 +443,8 @@
       <workItem from="1679483322114" duration="8537000" />
       <workItem from="1679557674754" duration="8014000" />
       <workItem from="1679571205762" duration="5816000" />
+      <workItem from="1679578549547" duration="364000" />
+      <workItem from="1679656413954" duration="4098000" />
     </task>
     <servers />
   </component>

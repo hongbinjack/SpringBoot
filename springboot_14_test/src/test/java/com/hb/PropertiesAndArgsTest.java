@@ -1,6 +1,8 @@
 package com.hb;
 
+import com.hb.testCase.domain.BookCase;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -17,9 +19,14 @@ public class PropertiesAndArgsTest {
 
     @Value("${test.pro}")
     private String properties;
+
+    @Autowired
+    private BookCase bookCase;
+
     @Test
     void testProperties(){
         System.out.println(properties);
+        System.out.println(bookCase);
     }
 
 }
