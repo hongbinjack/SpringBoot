@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e7a02f1-f804-482c-8458-fd3b970521b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot_16_redis/src/test/java/com/hb/StringRedisTemplateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_01_01/springboot_15_SQL/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_01_01/springboot_15_SQL/src/main/java/com/hb/Springboot15SqlApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_01_01/springboot_15_SQL/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_01_01/springboot_15_SQL/src/test/java/com/hb/Springboot15SqlApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +62,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/LearnResources/HeiMa/SpringBoot—资料/开发实用篇/开发实用篇",
+    "last_opened_file_path": "D:/ideaworkspace/springboot/springboot_17_mongodb",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.28850573",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "76b0a1b6c99446bca9a4ffc8ec88d45a"
+    "spring.configuration.checksum": "1bfc0d1c72264eaf5b4f25edf3275439"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -364,6 +363,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot17MongodbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_17_mongodb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Springboot17MongodbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="JUnit.Springboot16RedisApplicationTests.get" />
@@ -371,6 +377,7 @@
       <item itemvalue="JUnit.Springboot16RedisApplicationTests.set" />
       <item itemvalue="JUnit.StringRedisTemplateTest.get" />
       <item itemvalue="JUnit.StringRedisTemplateTest.set" />
+      <item itemvalue="Spring Boot.Springboot17MongodbApplication" />
       <item itemvalue="Spring Boot.Springboot16RedisApplication" />
       <item itemvalue="Spring Boot.Springboot15SqlApplication" />
       <item itemvalue="Spring Boot.Springboot14TestApplication" />
@@ -459,6 +466,7 @@
       <workItem from="1679663357377" duration="926000" />
       <workItem from="1679883325315" duration="5663000" />
       <workItem from="1679897516328" duration="6771000" />
+      <workItem from="1679916040325" duration="294000" />
     </task>
     <servers />
   </component>

@@ -10,6 +10,7 @@
         <module name="springboot_15_sql" />
         <module name="springboot_15_SQL" />
         <module name="springboot_09_config" />
+        <module name="springboot_17_mongodb" />
         <module name="springboot_03_yaml" />
         <module name="springboot_05_mybatis" />
         <module name="springboot_01_01" />
@@ -51,6 +52,7 @@
       <module name="springboot_14_test" options="-parameters" />
       <module name="springboot_15_SQL" options="-parameters" />
       <module name="springboot_16_redis" options="-parameters" />
+      <module name="springboot_17_mongodb" options="-parameters" />
     </option>
   </component>
 </project>
