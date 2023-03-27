@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e7a02f1-f804-482c-8458-fd3b970521b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/springboot_01_01/springboot_15_SQL/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_01_01/springboot_15_SQL/src/main/java/com/hb/Springboot15SqlApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_01_01/springboot_15_SQL/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_01_01/springboot_15_SQL/src/test/java/com/hb/Springboot15SqlApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_17_mongodb/src/main/java/com/hb/domain/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_17_mongodb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_17_mongodb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_17_mongodb/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_17_mongodb/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_17_mongodb/src/test/java/com/hb/Springboot17MongodbApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_17_mongodb/src/test/java/com/hb/Springboot17MongodbApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/ideaworkspace/springboot/springboot_17_mongodb",
+    "last_opened_file_path": "D:/ideaworkspace/springboot/springboot_17_mongodb/src/main/java/com/hb",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.28850573",
@@ -72,11 +73,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaworkspace\springboot\springboot_17_mongodb\src\main\java\com\hb" />
       <recent name="D:\ideaworkspace\springboot\springboot_15_sql\src\main\resources" />
       <recent name="D:\ideaworkspace\springboot\springboot_15_sql\src\main\java\com\hb" />
       <recent name="D:\ideaworkspace\springboot\springboot_14_test\src\main\java\com\hb" />
       <recent name="D:\ideaworkspace\springboot\springboot_09_config\src\main\resources" />
-      <recent name="D:\ideaworkspace\springboot\springboot_08_ssmp\src\main\resources\config" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hb" />
@@ -97,7 +98,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Springboot16RedisApplicationTests.get">
+  <component name="RunManager" selected="JUnit.Springboot17MongodbApplicationTests.findAll">
     <configuration name="Springboot16RedisApplicationTests.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_16_redis" />
       <extension name="coverage">
@@ -114,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Springboot16RedisApplicationTests.hget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_16_redis" />
+    <configuration name="Springboot17MongodbApplicationTests.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_17_mongodb" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hb.*" />
@@ -123,15 +124,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hb" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.Springboot16RedisApplicationTests" />
-      <option name="METHOD_NAME" value="hget" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.Springboot17MongodbApplicationTests" />
+      <option name="METHOD_NAME" value="findAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Springboot16RedisApplicationTests.set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_16_redis" />
+    <configuration name="Springboot17MongodbApplicationTests.testMongodb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_17_mongodb" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hb.*" />
@@ -139,8 +140,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hb" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.Springboot16RedisApplicationTests" />
-      <option name="METHOD_NAME" value="set" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.Springboot17MongodbApplicationTests" />
+      <option name="METHOD_NAME" value="testMongodb" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -372,9 +373,9 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.Springboot17MongodbApplicationTests.findAll" />
+      <item itemvalue="JUnit.Springboot17MongodbApplicationTests.testMongodb" />
       <item itemvalue="JUnit.Springboot16RedisApplicationTests.get" />
-      <item itemvalue="JUnit.Springboot16RedisApplicationTests.hget" />
-      <item itemvalue="JUnit.Springboot16RedisApplicationTests.set" />
       <item itemvalue="JUnit.StringRedisTemplateTest.get" />
       <item itemvalue="JUnit.StringRedisTemplateTest.set" />
       <item itemvalue="Spring Boot.Springboot17MongodbApplication" />
@@ -406,11 +407,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Springboot17MongodbApplicationTests.findAll" />
+        <item itemvalue="JUnit.Springboot17MongodbApplicationTests.testMongodb" />
         <item itemvalue="JUnit.Springboot16RedisApplicationTests.get" />
         <item itemvalue="JUnit.StringRedisTemplateTest.set" />
         <item itemvalue="JUnit.StringRedisTemplateTest.get" />
-        <item itemvalue="JUnit.Springboot16RedisApplicationTests.set" />
-        <item itemvalue="JUnit.Springboot16RedisApplicationTests.hget" />
       </list>
     </recent_temporary>
   </component>
@@ -466,7 +467,7 @@
       <workItem from="1679663357377" duration="926000" />
       <workItem from="1679883325315" duration="5663000" />
       <workItem from="1679897516328" duration="6771000" />
-      <workItem from="1679916040325" duration="294000" />
+      <workItem from="1679916040325" duration="1405000" />
     </task>
     <servers />
   </component>
