@@ -24,6 +24,8 @@
         <option value="$PROJECT_DIR$/spring_13_configuration/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_13_configuration/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_14_test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_15_sql/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_15_SQL/pom.xml" />
       </list>
     </option>
   </component>
