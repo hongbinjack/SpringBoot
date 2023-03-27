@@ -23,6 +23,7 @@
         <module name="springboot_04_junit" />
         <module name="springboot_08_ssmp (1)" />
         <module name="springboot_13_configuration" />
+        <module name="springboot_16_redis" />
         <module name="springboot_02_base_configuration" />
         <module name="springboot_11_log" />
         <module name="springboot_12_hot_deploy" />
@@ -49,6 +50,7 @@
       <module name="springboot_13_configuration" options="-parameters" />
       <module name="springboot_14_test" options="-parameters" />
       <module name="springboot_15_SQL" options="-parameters" />
+      <module name="springboot_16_redis" options="-parameters" />
     </option>
   </component>
 </project>
