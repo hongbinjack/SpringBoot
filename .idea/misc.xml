@@ -28,8 +28,13 @@
         <option value="$PROJECT_DIR$/springboot_15_SQL/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_16_redis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_17_mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_18_es/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_18_cache/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://ehcache.org/ehcache.xsd" location="$PROJECT_DIR$" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

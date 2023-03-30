@@ -5,11 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e7a02f1-f804-482c-8458-fd3b970521b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot_17_mongodb/src/main/java/com/hb/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/controller/MsgController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/controller/SMSCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/domain/SMSCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/service/MsgService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/service/SMSCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/service/impl/MsgServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/service/impl/SMSCodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/utils/CodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/resources/ehcache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_02_base_configuration/springboot_02_base_configuration.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_03_yaml/springboot_03_yaml.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_17_mongodb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_17_mongodb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_17_mongodb/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_17_mongodb/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_17_mongodb/src/test/java/com/hb/Springboot17MongodbApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_17_mongodb/src/test/java/com/hb/Springboot17MongodbApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_17_mongodb/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_17_mongodb/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +56,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven3.5.4" />
-        <option name="useMavenConfig" value="true" />
+        <option name="mavenHome" value="D:\Maven3.5.4" />
         <option name="userSettingsFile" value="D:\Maven3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -54,30 +73,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/ideaworkspace/springboot/springboot_17_mongodb/src/main/java/com/hb",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.28850573",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "1bfc0d1c72264eaf5b4f25edf3275439"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_18_cache/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaworkspace\springboot\springboot_17_mongodb\src\main\java\com\hb" />
-      <recent name="D:\ideaworkspace\springboot\springboot_15_sql\src\main\resources" />
-      <recent name="D:\ideaworkspace\springboot\springboot_15_sql\src\main\java\com\hb" />
-      <recent name="D:\ideaworkspace\springboot\springboot_14_test\src\main\java\com\hb" />
-      <recent name="D:\ideaworkspace\springboot\springboot_09_config\src\main\resources" />
+      <recent name="D:\ideaworkspace\springboot\springboot_18_cache\src\main\resources" />
+      <recent name="D:\ideaworkspace\springboot\springboot_18_cache\src\main\java\com\hb\controller" />
+      <recent name="D:\ideaworkspace\springboot\springboot_17_mongodb\src\main\resources" />
+      <recent name="D:\ideaworkspace\springboot\springboot_18_cache\src\main\java\com\hb" />
+      <recent name="D:\ideaworkspace\springboot\springboot_18_es\src\main\java\com\hb" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hb" />
@@ -98,19 +113,29 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Springboot17MongodbApplicationTests.findAll">
-    <configuration name="Springboot16RedisApplicationTests.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_16_redis" />
+  <component name="RunManager" selected="Spring Boot.Springboot18CacheApplication">
+    <configuration name="CodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hb.utils.CodeUtils" />
+      <module name="springboot_18_cache" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hb.*" />
+          <option name="PATTERN" value="com.hb.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hb" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.Springboot16RedisApplicationTests" />
-      <option name="METHOD_NAME" value="get" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,8 +172,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringRedisTemplateTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_16_redis" />
+    <configuration name="Springboot18EsApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_18_es" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hb.*" />
@@ -156,15 +181,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hb" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.StringRedisTemplateTest" />
-      <option name="METHOD_NAME" value="get" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.Springboot18EsApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringRedisTemplateTest.set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_16_redis" />
+    <configuration name="Springboot18EsApplicationTests.testCreateIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_18_es" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hb.*" />
@@ -172,8 +197,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hb" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.StringRedisTemplateTest" />
-      <option name="METHOD_NAME" value="set" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.Springboot18EsApplicationTests" />
+      <option name="METHOD_NAME" value="testCreateIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -222,17 +247,17 @@
       </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
       <module name="springboot_03_yaml" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Application" />
+      <option name="ACTIVE_PROFILES" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Application1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
       <module name="springboot_01_04" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Application" />
+      <option name="ACTIVE_PROFILES" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -308,9 +333,9 @@
       </method>
     </configuration>
     <configuration name="Springboot08SsmpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
       <module name="springboot_08_ssmp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.SSMPApplication" />
+      <option name="ACTIVE_PROFILES" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -371,13 +396,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot18CacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_18_cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Springboot18CacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot18EsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_18_es" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Springboot18EsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.CodeUtils" />
       <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.Springboot18EsApplicationTests.testCreateIndex" />
+      <item itemvalue="JUnit.Springboot18EsApplicationTests.contextLoads" />
       <item itemvalue="JUnit.Springboot17MongodbApplicationTests.findAll" />
       <item itemvalue="JUnit.Springboot17MongodbApplicationTests.testMongodb" />
-      <item itemvalue="JUnit.Springboot16RedisApplicationTests.get" />
-      <item itemvalue="JUnit.StringRedisTemplateTest.get" />
-      <item itemvalue="JUnit.StringRedisTemplateTest.set" />
+      <item itemvalue="Spring Boot.Springboot18CacheApplication" />
+      <item itemvalue="Spring Boot.Springboot18EsApplication" />
       <item itemvalue="Spring Boot.Springboot17MongodbApplication" />
       <item itemvalue="Spring Boot.Springboot16RedisApplication" />
       <item itemvalue="Spring Boot.Springboot15SqlApplication" />
@@ -407,11 +448,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeUtils" />
+        <item itemvalue="JUnit.Springboot18EsApplicationTests.testCreateIndex" />
+        <item itemvalue="JUnit.Springboot18EsApplicationTests.contextLoads" />
         <item itemvalue="JUnit.Springboot17MongodbApplicationTests.findAll" />
         <item itemvalue="JUnit.Springboot17MongodbApplicationTests.testMongodb" />
-        <item itemvalue="JUnit.Springboot16RedisApplicationTests.get" />
-        <item itemvalue="JUnit.StringRedisTemplateTest.set" />
-        <item itemvalue="JUnit.StringRedisTemplateTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +508,18 @@
       <workItem from="1679663357377" duration="926000" />
       <workItem from="1679883325315" duration="5663000" />
       <workItem from="1679897516328" duration="6771000" />
-      <workItem from="1679916040325" duration="1405000" />
+      <workItem from="1679916040325" duration="2312000" />
+      <workItem from="1679966474780" duration="825000" />
+      <workItem from="1679973954612" duration="1436000" />
+      <workItem from="1679983001590" duration="2038000" />
+      <workItem from="1680048998054" duration="3852000" />
+      <workItem from="1680052970193" duration="1525000" />
+      <workItem from="1680055181625" duration="1564000" />
+      <workItem from="1680056788424" duration="475000" />
+      <workItem from="1680069813127" duration="78000" />
+      <workItem from="1680069910929" duration="5558000" />
+      <workItem from="1680076692333" duration="6096000" />
+      <workItem from="1680156456577" duration="4862000" />
     </task>
     <servers />
   </component>

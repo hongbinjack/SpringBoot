@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/spring_13_configuration/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_01_01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_01_02/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_01_04/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_02_base_configuration/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_02_base_configuration/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_03_yaml/springboot_04_junit/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_03_yaml/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_03_yaml/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_04_junit/src/main/java" charset="UTF-8" />
@@ -27,7 +25,7 @@
     <file url="file://$PROJECT_DIR$/springboot_15_SQL/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_16_redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_17_mongodb/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../springboot_09_config/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../springboot_09_config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_18_cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_18_cache/src/main/resources" charset="UTF-8" />
   </component>
 </project>
