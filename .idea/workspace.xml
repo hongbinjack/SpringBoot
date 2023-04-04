@@ -5,31 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e7a02f1-f804-482c-8458-fd3b970521b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/controller/MsgController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/controller/SMSCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/domain/SMSCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/service/MsgService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/service/SMSCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/service/impl/MsgServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/service/impl/SMSCodeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/java/com/hb/utils/CodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_18_cache/src/main/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_task/src/main/java/com/hb/TimerTaskApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_task/src/main/java/com/hb/config/QuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_task/src/main/java/com/hb/quartz/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_task/src/main/java/com/hb/quartz/MyQuartz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_mail/springboot_20_mail.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_02_base_configuration/springboot_02_base_configuration.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_03_yaml/springboot_03_yaml.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_17_mongodb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_17_mongodb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_17_mongodb/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_17_mongodb/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/hb/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/hb/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_10_profiles/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_10_profiles/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_18_cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_18_cache/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +26,23 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/springboot_19_jetcache">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,21 +83,25 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_18_cache/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaworkspace\springboot\springboot_19_task\src\main\java\com\hb" />
       <recent name="D:\ideaworkspace\springboot\springboot_18_cache\src\main\resources" />
       <recent name="D:\ideaworkspace\springboot\springboot_18_cache\src\main\java\com\hb\controller" />
       <recent name="D:\ideaworkspace\springboot\springboot_17_mongodb\src\main\resources" />
       <recent name="D:\ideaworkspace\springboot\springboot_18_cache\src\main\java\com\hb" />
-      <recent name="D:\ideaworkspace\springboot\springboot_18_es\src\main\java\com\hb" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hb" />
@@ -113,7 +122,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Springboot18CacheApplication">
+  <component name="RunManager" selected="Spring Boot.Springboot19TaskApplication">
     <configuration name="CodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hb.utils.CodeUtils" />
       <module name="springboot_18_cache" />
@@ -127,15 +136,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="TimerTaskApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hb.TimerTaskApp" />
+      <module name="springboot_19_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,22 +160,6 @@
       <option name="PACKAGE_NAME" value="com.hb" />
       <option name="MAIN_CLASS_NAME" value="com.hb.Springboot17MongodbApplicationTests" />
       <option name="METHOD_NAME" value="findAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Springboot17MongodbApplicationTests.testMongodb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_17_mongodb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hb" />
-      <option name="MAIN_CLASS_NAME" value="com.hb.Springboot17MongodbApplicationTests" />
-      <option name="METHOD_NAME" value="testMongodb" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -410,13 +403,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot19JetcacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_19_jetcache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Springboot19JetcacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot19TaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_19_task" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hb.Springboot19TaskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CodeUtils" />
+      <item itemvalue="Application.TimerTaskApp" />
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="JUnit.Springboot18EsApplicationTests.testCreateIndex" />
       <item itemvalue="JUnit.Springboot18EsApplicationTests.contextLoads" />
       <item itemvalue="JUnit.Springboot17MongodbApplicationTests.findAll" />
-      <item itemvalue="JUnit.Springboot17MongodbApplicationTests.testMongodb" />
+      <item itemvalue="Spring Boot.Springboot19JetcacheApplication" />
+      <item itemvalue="Spring Boot.Springboot19TaskApplication" />
       <item itemvalue="Spring Boot.Springboot18CacheApplication" />
       <item itemvalue="Spring Boot.Springboot18EsApplication" />
       <item itemvalue="Spring Boot.Springboot17MongodbApplication" />
@@ -448,11 +457,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimerTaskApp" />
         <item itemvalue="Application.CodeUtils" />
         <item itemvalue="JUnit.Springboot18EsApplicationTests.testCreateIndex" />
         <item itemvalue="JUnit.Springboot18EsApplicationTests.contextLoads" />
         <item itemvalue="JUnit.Springboot17MongodbApplicationTests.findAll" />
-        <item itemvalue="JUnit.Springboot17MongodbApplicationTests.testMongodb" />
       </list>
     </recent_temporary>
   </component>
@@ -519,7 +528,20 @@
       <workItem from="1680069813127" duration="78000" />
       <workItem from="1680069910929" duration="5558000" />
       <workItem from="1680076692333" duration="6096000" />
-      <workItem from="1680156456577" duration="4862000" />
+      <workItem from="1680156456577" duration="5181000" />
+      <workItem from="1680488314828" duration="2515000" />
+      <workItem from="1680493239918" duration="28000" />
+      <workItem from="1680493280913" duration="4000" />
+      <workItem from="1680493303914" duration="393000" />
+      <workItem from="1680493718501" duration="128000" />
+      <workItem from="1680508215473" duration="24000" />
+      <workItem from="1680567820592" duration="848000" />
+      <workItem from="1680568698833" duration="2428000" />
+      <workItem from="1680571667952" duration="375000" />
+      <workItem from="1680588807222" duration="822000" />
+      <workItem from="1680589656971" duration="1203000" />
+      <workItem from="1680590911059" duration="612000" />
+      <workItem from="1680591550169" duration="461000" />
     </task>
     <servers />
   </component>

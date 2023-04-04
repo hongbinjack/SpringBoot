@@ -1,0 +1,6 @@
+spring:
+  task:
+    scheduling:
+      thread-name-prefix: spring_tasks_  # 设定线程名的前缀
+
+

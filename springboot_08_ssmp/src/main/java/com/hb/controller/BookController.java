@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.io.IOException;
 
 @RestController //注释掉了这个注解之后，这个类就不会被加载成Bean了
-@RequestMapping("/books")
+@RequestMapping("/bookss")
 public class BookController {
 
     @Autowired
